@@ -23,6 +23,11 @@ const routes = [
     component: () => import("../views/TaskTracker.vue"),
   },
   {
+    path: "/basic-vuex",
+    name: "basic-vuex",
+    component: () => import("../views/BasicVuex.vue"),
+  },
+  {
     path: "/about",
     name: "about",
     component: () => import("../views/AboutView.vue"),

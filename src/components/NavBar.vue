@@ -50,6 +50,12 @@
             </li>
 
             <li class="nav-item custom-nav-item">
+              <router-link class="nav-link" to="/basic-vuex"
+                >Vuex (Basic)</router-link
+              >
+            </li>
+
+            <li class="nav-item custom-nav-item">
               <router-link class="nav-link" to="/about">About</router-link>
             </li>
           </ul>

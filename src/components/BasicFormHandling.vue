@@ -133,7 +133,6 @@ export default {
 
   methods: {
     submitUserData() {
-      console.log("user data = ", this.user);
       alert("Data is submitted!");
     },
   },
